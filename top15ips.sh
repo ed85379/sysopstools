@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# topips.sh
+# This script is designed to parse the apache logs and list out the top 15 IP addresses 
+# hitting the server within the given time period.
+
+
 while getopts "bas:e:l:" Option
 do
         case $Option in
