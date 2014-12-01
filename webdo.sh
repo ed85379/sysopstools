@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# webdo.sh
+# This script runs a given command on a list of servers. 
+# It works a lot more smoothly if passwordless logins are configured. 
+
 if [ $# -lt 1 ]; then
 	echo "Error: Needs more arguments"
 	echo "Usage: webdo.sh [-s] [-q] [-w #] [-h \"list of hosts\"] <command>"
