@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# adddrop.sh
+# This script is designed to run directly on a Vyatta firewall
+# It will walk a user through a series of questions, and then output
+# the correct commands to add a new DROP rule to the firewall.
+
 numfun () {
 echo "Choose a rule number >1000 that does not exist yet:"
 read rule
