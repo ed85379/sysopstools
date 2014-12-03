@@ -3,6 +3,7 @@
 # webdo.sh
 # This script runs a given command on a list of servers. 
 # It works a lot more smoothly if passwordless logins are configured. 
+# test
 
 if [ $# -lt 1 ]; then
 	echo "Error: Needs more arguments"
